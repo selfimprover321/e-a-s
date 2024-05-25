@@ -24,6 +24,8 @@
     justify-content: center;
     align-items: center;
     margin: 30px;
+    flex-direction: column;
+    gap: 30px;
 }
 body{
     background-color: lightskyblue;
@@ -42,4 +44,8 @@ header{
     font-size: 18px;
     border-radius: 10px;
     padding: 5px;
+    border: 3px solid black;
+}
+span{
+    border: 3px solid black;
 }
